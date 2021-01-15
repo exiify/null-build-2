@@ -1,0 +1,1 @@
+export { fullNavbar } from "./Navbar";
