@@ -1,8 +1,7 @@
 import React from "react";
 import "./index.css";
 import "./features.css";
-import track from "./track.jpg";
-import leveling from "./leveling.png";
+
 export function Home() {
   return (
     <div className="pog" id="home">
@@ -48,7 +47,11 @@ export function Home() {
               Custom playilsts with 1000 songs per playlist!
             </p>
           </div>
-          <img height="15rem!important;" alt="Null is an epic " src={"https://i.imgur.com/6oEfd40.png"} />
+          <img
+            height="15rem!important;"
+            alt="Null is an epic "
+            src={"https://i.imgur.com/6oEfd40.png"}
+          />
         </section>
         <section className="reverse">
           <div className="text-area">
