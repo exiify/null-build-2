@@ -48,7 +48,7 @@ export function Home() {
               Custom playilsts with 1000 songs per playlist!
             </p>
           </div>
-          <img height="15rem!important;" alt="Null is an epic " src={track} />
+          <img height="15rem!important;" alt="Null is an epic " src={"https://i.imgur.com/6oEfd40.png"} />
         </section>
         <section className="reverse">
           <div className="text-area">
@@ -62,8 +62,8 @@ export function Home() {
             </p>
           </div>
           <img
-            alt="Two of Dank Memer's MANY memey commands - pls meme and pls floor"
-            src={leveling}
+            alt="Powerful Leveling commands"
+            src={"https://i.imgur.com/3ZvjvZz.png"}
           />
         </section>
 
