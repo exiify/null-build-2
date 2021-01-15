@@ -13,9 +13,9 @@ export function Home() {
               classname="null-pfp"
               src={"https://i.imgur.com/gvgy11R.png"}
             />
-            <p classname="home-text-big">
+            <h1 classname="home-text-big">
               Make the best discord server with Null{" "}
-            </p>
+            </h1>
             <a
               class="btn  btn-lg btn-home"
               href="https://discord.com/oauth2/authorize?client_id=796009533323345941&permissions=473394422&scope=bot"
