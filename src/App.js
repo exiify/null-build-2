@@ -11,7 +11,7 @@ export default function App() {
       <div className="undernav">
         <Switch>
           <Route path="/" exact={true} component={Home} />
-          <Route path="/privacy" exact={true} component={Privacy} />
+          <Route path="/privacy" exact component={Privacy} />
         </Switch>
       </div>
     </div>
