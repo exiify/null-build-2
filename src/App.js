@@ -1,7 +1,7 @@
 import React from "react";
 import "./app.css";
 import { Route, Switch } from "react-router-dom";
-import { Home } from "./pages";
+import { Home, Privacy } from "./pages";
 import { fullNavbar as Navbar } from "./components";
 
 export default function App() {
@@ -11,6 +11,7 @@ export default function App() {
       <div className="undernav">
         <Switch>
           <Route path="/" exact={true} component={Home} />
+          <Route path="/privacy" exact={true} component={Privacy} />
         </Switch>
       </div>
     </div>

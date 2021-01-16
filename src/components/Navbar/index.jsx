@@ -28,6 +28,8 @@ export function fullNavbar() {
               Separated link
             </NavDropdown.Item>
   </NavDropdown> */}
+          <Nav.Link href="/"> Home</Nav.Link>
+          <Nav.Link href="/privacy">Privacy Policy</Nav.Link>
           <Nav.Link href="https://discord.com/oauth2/authorize?client_id=796009533323345941&permissions=473394422&scope=bot">
             {" "}
             Add To Discord

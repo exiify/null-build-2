@@ -37,7 +37,6 @@
 }
 
 .homeMain {
-  margin-top: 150px;
   height: 95vh;
 }
 .home-text-wrap img {
@@ -50,8 +49,7 @@
 }
 @media screen and (max-width: 768px) {
   .homeMain {
-    margin-top: 150px;
-    height: 150vh;
+    height: 125vh;
   }
 
   .home-text-wrap img {
