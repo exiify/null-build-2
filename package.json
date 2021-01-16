@@ -4,7 +4,7 @@
   "description": "React example starter project",
   "keywords": ["react", "starter"],
   "main": "src/index.js",
-
+  "homepage": "https://nullbot.xyz",
   "dependencies": {
     "bootstrap": "4.5.3",
     "react": "17.0.0",
