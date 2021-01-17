@@ -1,10 +1,14 @@
 import React from "react";
 import "./index.css";
 import "./features.css";
+import Helmet from "react-helmet";
 
 export function Home() {
   return (
     <div className="pog" id="home">
+      <Helmet>
+        <title> Home </title>
+      </Helmet>
       <div className="homeMain">
         <div classname="home-lol">
           <div className="home-text-wrap">
